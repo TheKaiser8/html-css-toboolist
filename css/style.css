@@ -39,25 +39,27 @@ h1 {
     padding: 10px 40px;
 }
 
-button {
-    font-family: 'Roboto', sans-serif;
-    font-size: small;
+.container.button{
+    border-bottom: 2px solid #F6F8F9;
 }
 
-#button-task {
+button {
+    height: 25px;
+    border-radius: 5px;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+#task {
     border: none;
     background-color: #45ABEA;
-    border-radius: 5px;
-    height: 25px;
     width: 75px;
     color: white;
 }
 
-#button-section {
+#section {
     background-color: white;
     border: 1px solid lightgray;
-    border-radius: 5px;
-    height: 25px;
     width: 100px;
     color: lightgray;
 }
@@ -77,17 +79,28 @@ h3 {
 
 .row {
     margin-top: 10px;
+    line-height: 20px;
 }
 
 .circle {
     display: inline-block;
     height: 20px;
     width: 20px;
-    border: 1px solid #64C0A9;
+    border-width: 1px;
+    border-style: solid;
     border-radius: 50%;
-    color: #64C0A9;
     text-align: center;
     vertical-align: middle;
+}
+
+.circle.check {
+    color: #64C0A9;
+    border-color: #64C0A9;
+}
+
+.circle.cross {
+    color: red;
+    border-color: red;
 }
 
 h4 {
@@ -97,16 +110,29 @@ h4 {
     margin-left: 5px;
 }
 
-.editorial {
+.box {
     display: inline-block;
     height: 20px;
     width: 60px;
-    background-color: #45ABEA;
     font-size: x-small;
     color: white;
     border-radius: 8px;
     text-align: center;
     vertical-align: middle;
-    line-height: 20px;
 }
-/* da sistemare e accorpare */
+
+.box.editorial {
+    background-color: #45ABEA;
+}
+
+.box.q1-goals {
+    background-color: #9C72E4;
+}
+
+.box.recruiting {
+    background-color: #64C0A9;
+}
+
+.box.mobile {
+    background-color: #F29E33;
+}
