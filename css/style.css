@@ -64,6 +64,10 @@ button {
     color: lightgray;
 }
 
+#first-section{
+    padding-top: 20px;
+}
+
 .downwards-triangle-arrowhead {
     display: inline-block;
     height: 15px;
@@ -135,4 +139,12 @@ h4 {
 
 .box.mobile {
     background-color: #F29E33;
+}
+
+.box.website {
+    background-color: #D863A1;
+}
+
+.box.sales {
+    background-color: #B0C926;
 }
