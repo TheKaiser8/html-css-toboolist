@@ -61,3 +61,50 @@ button {
     width: 100px;
     color: lightgray;
 }
+
+.downwards-triangle-arrowhead {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #64C0A9;
+    border-radius: 50%;
+    color: #64C0A9;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h4 {
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.editorial {
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    background-color: #45ABEA;
+    font-size: x-small;
+    color: white;
+    border-radius: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+/* da sistemare e accorpare */
