@@ -94,6 +94,7 @@ h4 {
     display: inline-block;
     font-weight: normal;
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 .editorial {
@@ -106,5 +107,6 @@ h4 {
     border-radius: 8px;
     text-align: center;
     vertical-align: middle;
+    line-height: 20px;
 }
 /* da sistemare e accorpare */
